@@ -121,6 +121,7 @@ const characters = [
 const maxCharacters = 13;
 const cooldownMs = 950;
 const boxButton = document.querySelector("#boxButton");
+const gamePanel = document.querySelector("#gamePanel");
 const characterLayer = document.querySelector("#characterLayer");
 const toast = document.querySelector("#toast");
 const hintText = document.querySelector("#hintText");
@@ -277,14 +278,17 @@ function openGame(instance) {
 function getMovementBounds() {
   const sampleWidth = window.matchMedia("(max-width: 680px)").matches ? 78 : 96;
   const sampleHeight = window.matchMedia("(max-width: 680px)").matches ? 106 : 126;
-  const minY = window.matchMedia("(max-width: 680px)").matches ? 150 : 172;
-  const bottomReserve = window.matchMedia("(max-width: 680px)").matches ? 168 : 168;
+  const panelRect = gamePanel.getBoundingClientRect();
+  const isMobile = window.matchMedia("(max-width: 680px)").matches;
+  const sidePadding = isMobile ? 24 : 46;
+  const topPadding = isMobile ? 172 : 178;
+  const bottomPadding = isMobile ? 124 : 82;
 
   return {
-    minX: 8,
-    minY,
-    maxX: Math.max(8, window.innerWidth - sampleWidth - 8),
-    maxY: Math.max(minY, window.innerHeight - sampleHeight - bottomReserve),
+    minX: panelRect.left + sidePadding,
+    minY: panelRect.top + topPadding,
+    maxX: Math.max(panelRect.left + sidePadding, panelRect.right - sidePadding - sampleWidth),
+    maxY: Math.max(panelRect.top + topPadding, panelRect.bottom - bottomPadding - sampleHeight),
   };
 }
 
