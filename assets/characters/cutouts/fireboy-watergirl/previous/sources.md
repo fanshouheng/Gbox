@@ -1,0 +1,9 @@
+# 冰火小人闯关
+
+Search query: Fireboy and Watergirl official character png
+Image page: https://www.deviantart.com/lucasthegoth/art/Fireboy-and-Watergirl-960266757
+Direct image: https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/43e84f3d-a5cf-4ec2-bf43-0524b374fe15/dfvpukl-96859d8b-6600-480d-9e6a-e8fa873d28df.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzQzZTg0ZjNkLWE1Y2YtNGVjMi1iZjQzLTA1MjRiMzc0ZmUxNVwvZGZ2cHVrbC05Njg1OWQ4Yi02NjAwLTQ4MGQtOWU2YS1lOGZhODczZDI4ZGYucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.7JKk9L9UTtDgNFWUT3tS3CedNXZ8faEjD9Ufy8J8_vU
+Title: Fireboy and Watergirl by LucasTheGoth on DeviantArt
+
+Note: Game character images may be copyrighted. Use according to the rights holder's terms.
+Cutout status: ok

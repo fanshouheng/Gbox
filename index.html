@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gbox 互动游戏入口</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <main class="stage" aria-label="Gbox 互动游戏入口">
+      <div class="game-panel" id="gamePanel" aria-hidden="true"></div>
+
+      <header class="hero">
+        <p class="kicker">4399 童年召唤盒</p>
+        <h1>神秘宝箱</h1>
+        <p class="subtitle">点击宝箱，看看会出现什么角色吧！</p>
+      </header>
+
+      <section class="summon-area" aria-label="召唤区域">
+        <div class="summon-spotlight" aria-hidden="true"></div>
+        <button class="mystery-box" id="boxButton" type="button" aria-label="点击盒子召唤角色">
+          <span class="box-lid"></span>
+          <span class="box-ribbon ribbon-vertical"></span>
+          <span class="box-ribbon ribbon-horizontal"></span>
+          <span class="box-body"></span>
+          <span class="box-glow"></span>
+          <span class="box-sparks" aria-hidden="true"></span>
+        </button>
+
+        <div class="first-guide" id="firstGuide" aria-hidden="true">
+          <span class="guide-finger">☝</span>
+          <span>点击打开</span>
+        </div>
+      </section>
+
+      <p class="hint" id="hintText">点击运动中的角色进入游戏，再点宝箱继续召唤。</p>
+
+      <div class="character-layer" id="characterLayer" aria-live="polite"></div>
+
+      <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+      <footer class="status-bar">
+        <span id="countText">场上角色 0/5</span>
+        <span id="unlockText">已解锁 0/5</span>
+      </footer>
+    </main>
+
+    <script src="./app.js"></script>
+  </body>
+</html>

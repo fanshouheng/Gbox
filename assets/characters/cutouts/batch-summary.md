@@ -1,0 +1,13 @@
+- 疯狂小人战斗: ok -> assets\characters\cutouts\madness-combat
+- 狂扁小朋友: ok -> assets\characters\cutouts\dad-n-me
+- 勇者之路精灵物语: ok -> assets\characters\cutouts\brave-road-elf-story
+- 小鳄鱼爱洗澡: ok -> assets\characters\cutouts\wheres-my-water-swampy
+- 双刃战士: ok -> assets\characters\cutouts\double-edge-warrior
+- 混乱大枪战2: ok -> assets\characters\cutouts\chaos-faction-2
+- 闪客快打3: ok -> assets\characters\cutouts\crazy-flasher-3
+- 死神VS火影: ok -> assets\characters\cutouts\bleach-vs-naruto
+- 冒险王之神兵传奇: ok -> assets\characters\cutouts\adventure-king
+- 造梦西游3: ok -> assets\characters\cutouts\dream-journey-3
+- 冰火小人闯关: ok -> assets\characters\cutouts\fireboy-watergirl
+- 割绳子: ok -> assets\characters\cutouts\cut-the-rope
+- 粘粘世界: ok -> assets\characters\cutouts\world-of-goo
